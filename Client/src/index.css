@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+.Nav_property {
+    @apply  h-full text-white text-2xl font-bold cursor-pointer
+}
+
+.input-btn{
+    @apply p-3 w-[25vw] rounded-lg font-semibold text-base text-white duration-300 bg-slate-800 focus:bg-slate-600 focus:border-2 focus:outline-none focus:border-red-500 
+}
+
+.btn{
+    @apply font-medium text-white text-lg bg-[#F80101] w-[90%] shadow-sm hover:scale-110 duration-500 shadow-slate-700 p-2 rounded-lg
+}
